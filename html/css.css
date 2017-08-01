@@ -1,0 +1,236 @@
+.origin-header, .origin-content, .origin-footer,{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+
+/*end-font*/
+.select{
+    border: 0px;
+}
+.container{
+    margin: auto;
+}
+.rows:before, .rows:after{
+    content: '';
+    display: table;
+}
+.rows:after{
+    clear: both;
+}
+.col-xs-6, .col-xs-4, .col-xs-3{
+    /*float: left;*/
+    width: 100%;
+}
+.col-xs-2{
+    width: 33.333%;
+}
+.li-header-top-1, .li-header-top-2{
+    padding-top: 10px;
+    float: left;
+    padding-left: 2px;
+}
+.li-header-top-2{
+    padding-left: 20px;
+}
+.slider-banner, .mission-opinion__pic, .logo-sponsor{
+     width: 100%;
+ }
+
+.li-header-bottom-2{
+    float: left;
+    padding-left: 10px;
+}
+.header-bottom__left{
+    padding-left: 35%;
+    margin-top: 10px;
+}
+
+/*end-header*/
+
+.origin-slider{
+    margin-top: 10px;
+}
+
+.origin-mission,.mission-topic, .mission-opinion{
+    margin-top:10px;
+}
+.mission-opinion__ul{
+    margin-left: -30px;
+}
+.message-icon{
+    padding-left: 30%;
+}
+
+/*end-mission*/
+
+.origin-video{
+    background-image: url("./img/video.png") ;
+    background-size: auto;
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.letter-spacing{
+    letter-spacing: 5px;
+}
+
+/*end-video*/
+
+.origin-benefit, .origin.quote, .origin-contact,
+.origin-logo-sponsor, .origin-footer{
+    margin-top: 10px;
+}
+
+.origin-contact{
+    background-image: url("./img/ban.png");
+}
+.distant-input{
+    padding-top: 10px;
+}
+.rows-input{
+    padding-left: 20%;
+    padding-bottom: 20px;
+}
+.contact-topic{
+    padding-top: 10px;
+}
+
+/*end-contact*/
+
+.li-footer-3{
+    float: left;
+    padding-left: 15px;
+}
+.li-footer-4{
+    float: left;
+    padding-left: 30px;
+}
+
+/*end-footer*/
+
+.bold-text{
+    font-weight: bold;
+}
+.italic-text{
+    font-style: italic;
+}
+.blue-color{
+    color: deepskyblue;
+}
+.tiny-text{
+    font-size: small;
+}
+.underline-text{
+    text-decoration: underline;
+}
+.big-text{
+    font-size: large;
+}
+.other-font{
+    font-size: 150px;
+    margin-bottom: -100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+/*end-text*/
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .slider-banner, .mission-opinion__pic, .logo-sponsor{
+        width: 100%;
+    }
+    .li-header-top-1, .li-header-top-2{
+        padding-left: 10px;
+    }
+    .footer{
+        padding-left: 10%;
+    }
+    .col-sm-2{
+        width: 16.66666%;
+    }
+    .li-footer-4{
+        float: left;
+        padding-left: 15px;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .slider-banner, .mission-opinion__pic, .logo-sponsor{
+        width: 100%;
+    }
+    .li-header-top-1, .li-header-top-2{
+        padding-left: 20px;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .slider-banner, .mission-opinion__pic{
+        width: 100%;
+    }
+    .logo-sponsor{
+        width: auto;
+    }
+    .col-md-6{
+        float: left;
+        width: 50%;
+    }
+    .col-md-4{
+        float: left;
+        width: 33.3333%;
+    }
+    .col-md-3{
+        float: left;
+        width: 25%;
+    }
+    .header-bottom__left{
+        padding-left: 15%;
+    }
+    .header-bottom__right{
+        margin-left: -50px;
+    }
+    .li-header-bottom-2{
+        float: left;
+        padding-left: 10px;
+    }
+    .btn{
+        margin-top: -5px ;
+    }
+
+    /*end-header*/
+
+    .origin-benefit{
+        margin-top: 10px;
+    }
+    .col-quote-2{
+        margin-left: -150px;
+    }
+    .col-quote-3{
+        margin-right: 250px;
+        margin-left: -100px;
+
+    }
+    .quote-1{
+        margin-right: -300px;
+    }
+    .quote{
+        margin-top: -50px;
+    }
+    .li-footer-3, .li-footer-4{
+        float: none;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .slider-banner, .mission-opinion__pic{
+        width: 100%;
+    }
+    .logo-sponsor{
+        width: auto;
+    }
+    .slider-banner{
+        height: 500px;
+    }
+}
